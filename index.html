@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>My Bookmarks App</title>
+</head>
+<body>
+    <header role="banner" class="row">
+        <h1>Bookmark Buddy</h1>
+        <div class="control-selections">
+            <ul class="selections hidden-nav">
+                <li>
+                    <form id="add-bookmark">
+                        <!-- <label for="addbut"></label>
+                        <br> -->
+                        <button type="submit" id="addbut">ADD BOOKMARK</button>
+                    </form>
+                </li>
+                <li>
+                    <!-- <label id="filter-label">Filter by rating
+                        <br> -->
+                        <select id="rating-options">
+                            <option name="stars" value="0">Filter by rating</option>
+                            <option name="stars" value="5">Five stars</option>
+                            <option name="stars" value="4">Four stars+</option>
+                            <option name="stars" value="3">Three stars+</option>
+                            <option name="stars" value="2">Two stars+</option>
+                            <option name="stars" value="1">One star+</option>
+                        </select>
+                    <!-- </label> -->
+                </li>
+            </ul>
+        </div>
+        <hr>
+    </header>
+    
+    <main role="main" id="main-display">        
+   
+    </main>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="module" src="index.js"></script>
+    <!-- <script type="module" src="displays.js"></script>
+    <script type="module" src="bookmarks-main.js"></script>
+    <script type="module" src="api.js"></script>
+    <script type="module" src="store.js"></script> -->
+</body>
+</html>
